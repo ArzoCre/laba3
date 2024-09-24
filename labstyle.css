@@ -1,0 +1,159 @@
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Стили для заголовка */
+.LabPage__Header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.LabPage__Header-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Стили для основного контента */
+.LabPage__Content {
+    padding: 20px;
+    text-align: center;
+}
+
+.LabPage__Content-Head-One {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.LabPage__Content-Desc {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.LabPage__Content-TaskWrap {
+    list-style-type: none;
+    padding: 0;
+}
+
+.LabPage__Content-Task {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.LabPage__Content-Decision-Wrap {
+    margin-top: 20px;
+}
+
+.LabPage__Content-Head-Two {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.LabPage__Content-Task-Form {
+    margin-bottom: 20px;
+}
+
+.LabPage__Content-Head-Three {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.LabPage__Content-Input {
+    display: block;
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.LabPage__Content-Button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.LabPage__Content-Button:hover {
+    background-color: #45a049;
+}
+
+.LabPage__Link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.LabPage__Link:hover {
+    background-color: #45a049;
+}
+
+/* Стили для подвала */
+.LabPage__Footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin-left: 30px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap-reverse;
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.left-col{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.LabPage__Footer-text {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .forma{
+flex-direction: column;
+    }
+    .LabPage__Content{
+        padding :0px
+    }
+}
